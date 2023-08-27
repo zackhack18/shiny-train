@@ -1,0 +1,17 @@
+/*Write a program to find largest of the three number by using && operators*/
+#include <tsdio.h>
+void main()
+{
+    int a, b, c;
+    printf("enter the three number\n");
+    scanf("%d %d %d", %a, &b, &c);
+
+    if(a>b && a>c)
+    printf("%d is the largest numbers",a);
+
+    else if(b>a && b>a)
+    printf("%d is the largestt numbers",b);
+
+  else
+    printf("%d is the largest numbers",c);
+}
