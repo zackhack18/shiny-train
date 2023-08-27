@@ -1,0 +1,11 @@
+/*Write a program to impress the human by using for loop in c*/
+#include <stdio.h>
+#include conio.h>
+int main()
+{
+    int love=3, i;
+    for(i=1; i<100; i++)
+    printf("I%c you", love);
+    getch();
+    return 0;
+}
