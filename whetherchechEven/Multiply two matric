@@ -1,0 +1,31 @@
+/*Write a program to multiply two matrix*/
+#include <stdio.h>
+void main()
+{
+    int M1[3][3], M2[3][3], M3[3][3], i, j, k;
+    printf("Enter M1 elements");
+    for(i=0; i<2; i++)
+    {
+        for(j=0; j<2; j++)
+        scanf("%d", &M1[i][j]);
+    }
+    printf("Enter M2 elements");
+    for(i=0; i<2; i++)
+    {
+        for(j=0; j<2; j++)
+        scanf("%d", &M2[i][j]);
+    }
+    for(i=0; j<2; i++)
+    {
+        M3[i][j = 0];
+        for(k=0; k<=2; k++)
+        M3[i][j]= M3[i][j] + M1[i][j]*M2[i][j];
+    }
+    printf("resultsnt matrix is");
+    for(i=0; i<2; i++)
+    {
+        for(j=0; j<2; j++)
+        printf("%d",M3[i][j]);
+        printf("\n");
+    }
+}
