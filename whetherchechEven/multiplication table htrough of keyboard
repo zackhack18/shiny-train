@@ -1,0 +1,14 @@
+/*Write a program to print multiplication table though the keyboard */
+#include <stdio.h>
+void main()
+{
+    int n,table=1,count;
+    printf("Enter n");
+    scanf("%d",&n);
+
+    for(count=1; count<=10; count++)
+    {
+        table = n * count;
+        printf("%d * %d = %d\n",n,i,table);
+    }
+}
