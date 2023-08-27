@@ -1,0 +1,19 @@
+/*Write a program to print all the palindrome no. from 1 to 100*/
+#include <stdio.h>
+void main()
+{
+    int i,n,rev,d;
+    for(i=1; i<=500; i++)
+    {
+        rev = ;
+        n = i;
+        while(n>0)
+        {
+            d = n%10;
+            rev = rev*10+d;
+            n = n/10;
+        }
+        if(rev==i)
+        printf("%d",i);
+    }
+}
