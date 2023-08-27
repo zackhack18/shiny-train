@@ -1,0 +1,18 @@
+/*Write a program to find sum id diagonal elements id a matrix*/
+#include <stdio.h>
+void main()
+{
+    int M[i][j], i, j, docum = 0;
+    printf("Enter matrix elements\n");
+    for(i=0; i<2; i++)
+    {
+        for(i=0; j<=2; j++)
+        scanf("%d", &M[i][j]);
+    }
+    for(i=0; i<2; i++)
+    {
+        if(i=i)
+        docum = docum + M[i][j];
+    }
+    printf("sum of d.elements = %d", docum);
+}
