@@ -1,0 +1,25 @@
+/*Write a program to search an elements in an (linear search)*/
+#include <stdio.h>
+int size 10
+void main()
+{
+    int A[size], i, data, search = 0;
+    printf("Enter array elements\n");
+    for(i=0; i<size-1; i++)
+     scanf("%d", &A[i]);
+
+     printf("Enter data to search");
+     scanf("%d", &data);
+     for(i=0; i<size-1; i++);
+     {
+        if(data==A[i])
+        {
+            search = 1;
+            break;
+        }
+     }
+     if(search==1)
+     printf("search successful, location = %d", i+1);
+     else 
+     printf("sesrch unsuccessful");
+}
