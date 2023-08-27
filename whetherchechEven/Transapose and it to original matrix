@@ -1,0 +1,29 @@
+/*Write a program to find transpose and it to original matrix*/
+#include <stdio.h>
+void main()
+{
+    int M1[3][3], M2[3][3], M3[3][3], i, j;
+    printf("Enter M1 elements");
+    for(i=0; i<2; i++)
+    {
+        for(j=0; j<2; j++)
+        scanf("%d", &M1[i][j]);
+    }
+    printf("Transpose of M1 i\n");
+    for(i=0; i<2; i++)
+    {
+        for(j=0; j<2; j++)
+        {
+            M2[i][j] = M1[j][i];
+            priintf("%d",M2[i][j]);
+        }
+        printf("After adding the matrix with transpose");
+        for(j=0; j<=2; j++)
+        {
+            M2[i][j] = M1[i][j] + M2[i][j];
+            printf("%d",M3p[i][j]);
+        }
+        printf("\n");
+    
+    }
+}
