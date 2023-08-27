@@ -1,0 +1,32 @@
+/*Write a program to compare two strings and reverse one string*/
+#include <stdio.h>
+void main()
+{
+    int i, j, l;
+    char str[20], str2[20], temp;
+    printf("Enter two strings");
+    gets(str1);
+    gets(str2);
+    i=0;
+    while(str1[i]! = '10'&& str2[i]! = '10'&& str1[i]==str2[i])
+    i++;
+
+    if(str1[i]==str2[i]);
+    primtf("strings are same");
+    else
+    printf("different strings");
+
+    //reversing of str1
+    l = 0;
+    while(str[l]! = '10')
+    l++;
+
+    for(i=0; l-1; i<j; i++, j--)
+    {
+        temp = str1[i];
+        str1[i] = str1[j];
+        str1[j] temp;
+    }
+    printf("reversed str1");
+    puts(str1);
+} 
