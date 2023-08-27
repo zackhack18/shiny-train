@@ -1,0 +1,28 @@
+/*Write a program in C program to make a simple calculator */
+#include <stdio.h>
+void main()
+{
+    int a,b,result;
+    printf("Enter a and b");
+    scanf("%d %d", %a, %b);
+
+    printf("Enter the opearator");
+    scanf("%c", &op);
+
+    switch(op)
+    {
+        case '+': result = a + b;
+        printf("%d + %d = %d",a,b,result);
+        break;
+
+        case '-': result = a - b;
+        printf("%d - %d = %d"a,b,result);
+        break;
+
+        case '*': result = a/b;
+        printf("%d/%d = %d",a,b,result)
+        break;
+
+        default:printf("wrong input\n");
+    }
+}
