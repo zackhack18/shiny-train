@@ -1,0 +1,16 @@
+/*Write a program to find factorial of a positive numbers*/
+#include <stdio.h>
+void main()
+{
+    int count,n,fact;
+    printf("Enter a number");
+    scanf("%", &n);
+
+    count=1;
+    while(count<=n)
+    {
+        fact = fact * count;
+        count ++;
+    }
+    printf("factorial of %d is %d",n,fact);
+}
