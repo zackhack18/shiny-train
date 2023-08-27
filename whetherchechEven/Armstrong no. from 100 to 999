@@ -1,0 +1,17 @@
+/*Write a program to print all the armstrong number from 100 to 999 */
+#include <stdio.h>
+void main()
+int i, n, sum, d;
+for(i=100; i<=999; i++)
+{
+    sum = 0;
+    n = i;
+    while(n>0)
+    {
+        d = n%10;
+        sum = sum + d*d*d;
+        n = n/10;
+    }
+    if(sum == i)
+    printf("%d",i);
+}
