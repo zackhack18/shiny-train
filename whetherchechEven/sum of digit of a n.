@@ -1,0 +1,17 @@
+/*Write a program to find sum of digit of a numbers*/
+#include <stdio.h>
+void main()
+{
+    int sum = 0, n, d, temp;
+    printf("Enter any number");
+    scanf("%d", &n);
+
+    temp = n;
+    while(n>0)
+    {
+        d = n%10;
+        sum = sum + d;
+        n = n/10;
+    }
+    printf("sum of digit of %d = %d", temp,sum);
+}    
