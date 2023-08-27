@@ -1,0 +1,22 @@
+/*Write a program to print all the prime no.s from 10 to 100*/
+#include <stdio.h>
+void main()
+{
+    int i, n, prime;
+    for(n=10; n<=100; n++)
+    {
+        prime=1;
+        i=2;
+        while(i<=n-1)
+        {
+            if(n%i==0)
+            {
+                prime=0;
+                break;
+            }
+            i++;
+        }
+        if(prime==1)
+        printf("%d",n);
+    }
+}
