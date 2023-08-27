@@ -1,0 +1,13 @@
+/*Write a program to print the sum of 20 numbers*/
+#include <stdio.h>
+ void main()
+ {
+    int count,sum;
+    count=1;
+    while(count<=20)
+    {
+        sum = sum + count;
+        count = sum + 1;
+    }
+    printf("sum = %d",sum);
+ }
