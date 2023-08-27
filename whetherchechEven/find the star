@@ -1,0 +1,18 @@
+/*Write a program to find the following
+                *
+                * *
+                * * *
+                * * * *
+                * * * * *
+*/
+#include <stdio.h>
+void main()
+{
+    int i,j;
+    for(j=1; j<=i;j++)
+    {
+        for(j=1; j<=i; j++)
+        printf("*");
+        printf("\n");
+    }
+}
